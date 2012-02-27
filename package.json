@@ -1,0 +1,19 @@
+{
+    "name" : "slow-proxy",
+    "version": "0.1.0",
+    "engines": { "node": ">= 0.4.0" },
+    "description": "Sets up a proxy to forward requests with a specified delay on them.",
+    "author": "Jacob Swartwood",
+    "keywords": ["slow", "delay", "proxy", "timeout"],
+    "main" : "lib/slow-proxy.js",
+    "repository": {
+        "type": "git",
+        "web": "http://github.com/jswartwood/slow-proxy.git"
+    },
+    "bugs": {
+        "web": "http://github.com/jswartwood/slow-proxy/issues"
+    },
+    "licenses" : [
+        { "type" : "MIT",  "url" : "http://jacob.swartwood.info/license/" }
+    ]
+}
