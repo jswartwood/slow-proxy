@@ -1,6 +1,6 @@
 {
     "name" : "slow-proxy",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": { "node": ">= 0.4.0" },
     "description": "Sets up a proxy to forward requests with a specified delay on them.",
     "author": "Jacob Swartwood",
