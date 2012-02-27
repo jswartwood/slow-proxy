@@ -11,7 +11,7 @@
         "web": "http://github.com/jswartwood/slow-proxy.git"
     },
     "bugs": {
-        "web": "http://github.com/jswartwood/slow-proxy/issues"
+        "url": "http://github.com/jswartwood/slow-proxy/issues"
     },
     "licenses" : [
         { "type" : "MIT",  "url" : "http://jacob.swartwood.info/license/" }
