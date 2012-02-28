@@ -60,7 +60,10 @@ and the third value being the callback function to run when the fetch completes.
 
     app.get(/\/proxy\/(\d+)\/(.*)$/, function(request, response) {
       // Call the `fetch` method
-      proxy.fetch("/" + request.params[1], request.params[0], function( html ) {
+      var delay = request.params[0]
+        , relativeOriginURL = request.params[1]
+      ;
+      proxy.fetch("/" + relativeOriginURL, delay, function( html ) {
         response.write(html);
         response.end();
       });
