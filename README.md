@@ -59,11 +59,14 @@ the original url to fetch, the second param being the delay value (in millisecon
 and the third value being the callback function to run when the fetch completes.
 
     app.get(/\/proxy\/(\d+)\/(.*)$/, function(request, response) {
-      // Call the `fetch` method
+      // Extract params
       var delay = request.params[0]
         , relativeOriginURL = request.params[1]
       ;
+
+      // Call the `fetch` method
       proxy.fetch("/" + relativeOriginURL, delay, function( html ) {
+        // Forward the response html
         response.write(html);
         response.end();
       });
