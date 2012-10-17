@@ -12,21 +12,6 @@ Install the module:
 npm install slow-proxy
 ```
 
-...or...
-
-Add to your `package.json` file:
-
-```json
-{
-  "name":        "my-app",
-  // ...
-  "dependencies": {
-    // ...
-    "slow-proxy": "0.1.0"
-  }
-}
-```
-
 Define your proxy configuration
 -------------------------------
 
